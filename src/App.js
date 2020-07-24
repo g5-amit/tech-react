@@ -4,14 +4,16 @@ import './App.css';
 import  Functional  from './components/Functional'
 import Welcome from './components/Welcome'
 import JSXComponent from './components/JSXComponent'
+import Message from './components/Message';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
+        <Message></Message>
         {/* <Functional /> 
         <Welcome /> */}
-        <Functional name="Sharukhh" heroName = "Romantic">
+        {/* <Functional name="Sharukhh" heroName = "Romantic">
           <p>This is children prop, He is 45 years old now</p>
         </Functional>
         <Functional name="Sunny Deol" heroName = "Shaktiman">
@@ -22,7 +24,7 @@ class App extends Component {
 
         <Welcome name="Akshay" heroName = "Funny">
           <p>This is children prop, He is 45 years old now</p>
-        </Welcome>
+        </Welcome> */}
 
 
       </div>
