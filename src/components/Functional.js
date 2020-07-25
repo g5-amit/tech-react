@@ -4,6 +4,7 @@ import React from 'react'
 //     return <h1>Hello Amit</h1>
 // }
 
+// const Functional = ({name , heroName})=>{}
 const Functional = props => {
     return (
         <div>
