@@ -12,18 +12,23 @@ import Stylesheet from './components/Stylesheet'
 import Inline from './components/Inline';
 import './appStyles.css'
 import styles from './appStyles.module.css'
+import Form from './components/Form';
+import LifecycleB from './components/LifecycleB';
+import LifecycleA from './components/LifecycleA';
 
 class App extends Component {
   render(){
     return (
       <div className="App">
-        {/* <Stylesheet primary = {true}></Stylesheet>
-        <Inline></Inline>
+        <LifecycleA></LifecycleA>
+        {/* <Form></Form> */}
+        {/* <Stylesheet primary = {true}></Stylesheet> */}
+        {/* <Inline></Inline>
         <h1 className = 'error'>Error</h1>
-        <h1 className = {styles.success}> Success</h1> */}
+        <h1 className = {styles.success}> Success</h1>  */}
         {/* <NameList></NameList> */}
         {/* <ParentComponent></ParentComponent> */}
-        <Counter></Counter>
+        {/* <Counter></Counter> */}
         {/* <Message></Message> */}
         {/* <Functional />  */}
          {/* <Welcome /> */}
